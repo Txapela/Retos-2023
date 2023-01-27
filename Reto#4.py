@@ -29,7 +29,7 @@ def par():
 par()
 print (par())
 
-# Comprobando si es nnúmero primo
+# Comprobando si es número primo
 def primo(): 
     for i in range(2, number):
         if number % i == 0:
