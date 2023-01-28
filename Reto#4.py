@@ -20,14 +20,12 @@ def fibonacci():
         b = c
         if b == number: return True
 fibonacci()
-print (fibonacci())
 
 #Comprobando si es número par
 def par(): 
         if number % 2 == 0:
             return True
 par()
-print (par())
 
 # Comprobando si es número primo
 def primo(): 
@@ -36,7 +34,6 @@ def primo():
             return 
     return True
 primo()
-print (primo())
 
 # Impresión de resultados
 salida = "El número " + str(number)
