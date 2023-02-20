@@ -31,7 +31,7 @@ preguntas ={
 }
 
 
-
+#Presentación
 print ("~~~~~~~~~~~~~~~~~~~~~~~~~")
 print (" El sombrero de Hogwarts")
 print ("~~~~~~~~~~~~~~~~~~~~~~~~~")
@@ -46,6 +46,7 @@ while not False:
     elif r != "s" and r !="n":
         print ("\nOpción escogida NO valida...\n")
 
+# Preguntamos      
 for i in preguntas:
     print (i)
     respuesta = input("Escoge una opción:\n").lower()
@@ -61,6 +62,7 @@ for i in preguntas:
         print ("Opción escogida NO valida...")
         break
 
+#Presentamos resultados       
 if a>b and a>c and a>d:
     print ("Perteneces a la casa de Gryffindor")
 elif b>c and b>d:
